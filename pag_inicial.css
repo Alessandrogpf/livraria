@@ -1,3 +1,25 @@
-.menu{
-    
+.titulo {
+    color: brown;
+    text-align: left;
 }
+
+body {
+    background-color: rgb(247, 192, 130);
+}
+
+.menu {
+    background-color: rgb(247, 192, 130);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.menu a {
+    margin-right: 30px;
+    padding: 0 150px; /* Adiciona espaçamento interno nos links */
+    display: inline-block;
+    line-height: 40px;
+    text-decoration: none;
+    color: black;
+}
+
