@@ -10,6 +10,8 @@
     color: #FFFFFF; 
     margin: 0 200px; 
     text-decoration: none; 
+    position: relative;
+    top: 50px;
     
 }
 
@@ -57,3 +59,88 @@ footer {
     position:relative;
     top: 50px;
 }
+
+.pesquisar {
+    width: 60%;
+    height: 40px;
+    background-color: #ffffff;
+    position:relative;
+    top: 60px;
+}
+
+.titulo{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #000000;
+    margin: 0 200px;
+    text-decoration: none;
+    text-align: left;
+}
+
+.titulo2 {
+        font-size: 15px;
+        font-weight: bold;
+        color: #dadada;
+        margin: 0 200px;
+        text-decoration: none;
+        text-align: left;
+        font-style: italic; 
+    }
+
+    .btn {
+        display: inline-block;
+        padding: 10px 20px;
+        margin-top: 10px;
+        background-color: #000000; /* Cor de fundo do botão */
+        color: white; /* Cor do texto */
+        text-decoration: none; /* Remove sublinhado */
+        text-align: center;
+        border-radius: 5px; /* Bordas arredondadas */
+        transition: background-color 0.3s;
+    }
+    
+    .btn:hover {
+        background-color: #eff142; /* Cor ao passar o mouse */
+    }
+    
+    .vitrine {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: left; /* Centraliza os itens na horizontal */
+        padding: 20px;
+        gap: 20px; /* Espaçamento entre os itens */
+    }
+    
+    .item {
+        width: 200px; /* Largura de cada item */
+        text-align: center; /* Centraliza o texto dentro do item */
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Adiciona sombra para destaque */
+        padding: 10px;
+    }
+    
+    .item img {
+        width: 100%; /* Faz a imagem preencher a largura do item */
+        height: auto; /* Mantém a proporção da imagem */
+    }
+    
+    .item h3 {
+        color: #333; /* Cor do título do livro */
+        margin: 10px 0;
+    }
+    
+    .item p {
+        color: #000000; /* Cor do texto do resumo ou preço */
+    }
+
+    @media (max-width: 768px) {
+        .vitrine {
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        .item {
+            width: 90%; /* Faz cada item ocupar quase toda a largura da tela em dispositivos móveis */
+        }
+    }
+    
