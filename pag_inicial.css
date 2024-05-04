@@ -1,14 +1,23 @@
 .titulo {
-    color: brown;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    color: rgb(0, 0, 0);
     text-align: left;
 }
 
+.pesquisar {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 0 150px;
+}
 body {
-    background-color: rgb(247, 192, 130);
+    background-color:#BF5B04;
 }
 
 .menu {
-    background-color: rgb(247, 192, 130);
+    background-color: #591A03;
     text-align: center;
     margin: 0;
     padding: 0;
