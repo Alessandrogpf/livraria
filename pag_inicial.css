@@ -66,6 +66,7 @@ footer {
     background-color: #ffffff;
     position:relative;
     top: 60px;
+    
 }
 
 .titulo{
@@ -142,5 +143,31 @@ footer {
         .item {
             width: 90%; /* Faz cada item ocupar quase toda a largura da tela em dispositivos móveis */
         }
+    }
+    
+    .search {
+        display: flex;
+        align-items: center;
+    }
+    
+    .search .pesquisar {
+        flex-grow: 1;
+        border: none;
+        padding: 10px;
+        margin-right: 5px;
+    }
+    
+    .search i {
+        color: #3498db;
+        cursor: pointer;
+    }
+    
+    .social-icon {
+        margin: 0 10px;
+        color: #3498db; /* Ou qualquer outra cor que você prefira */
+    }
+    
+    .social-icon:hover {
+        color: #2980b9;
     }
     
